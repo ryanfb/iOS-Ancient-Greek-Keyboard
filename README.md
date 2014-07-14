@@ -9,5 +9,5 @@ See also: https://developer.apple.com/library/prerelease/ios/documentation/Gener
 
 This is currently a WORK IN PROGRESS. I'm developing it in the open in hopes of providing a good starting point for anyone who wants to pick it up or contribute back.
 
-WIP Screenshot
+WIP Screenshot:
 ![Imgur](http://i.imgur.com/ZnW4qHo.png)
