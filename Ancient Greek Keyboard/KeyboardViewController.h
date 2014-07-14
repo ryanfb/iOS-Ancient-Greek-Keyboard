@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PMCustomKeyboard.h"
 
 @interface KeyboardViewController : UIInputViewController
 
