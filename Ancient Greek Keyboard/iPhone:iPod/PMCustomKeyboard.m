@@ -8,11 +8,11 @@
 
 #import "PMCustomKeyboard.h"
 
-#define kFont [UIFont fontWithName:@"GurmukhiMN" size:22]
+#define kFont [UIFont fontWithName:@"Helvetica Neue" size:22]
 #define kAltLabel @"੧੨੩"
 #define kReturnLabel @"ਨਵੀਂ ਪੰਕਤੀ"
 #define kSpaceLabel @"ਖਾਲੀ ਥਾਂ"
-#define kChar @[ @"◌ੌ", @"◌ੈ", @"◌ਾ", @"◌ੀ", @"◌ੂ", @"ਬ", @"ਹ", @"ਗ", @"ਦ", @"ਜ", @"ਡ", @"◌ੋ", @"◌ੇ", @"◌੍", @"ਿ◌", @"◌ੁ", @"ਪ", @"ਰ", @"ਕ", @"ਤ", @"ਚ", @"ਟ", @"◌ਂ", @"ੜ", @"ਮ", @"ਨ", @"ਵ", @"ਲ", @"ਸ", @"ਯ" ]
+#define kChar @[ @";", @"ς", @"ε", @"ρ", @"τ", @"υ", @"θ", @"ι", @"ο", @"π", @"◌῀", @"α", @"σ", @"δ", @"ε", @"φ", @"γ", @"η", @"ι", @"ξ", @"κ", @"λ", @"ζ", @"χ", @"ω", @"β", @"ν", @"μ", @",", @"." ]
 #define kChar_shift @[ @"ਔ", @"ਐ", @"ਆ", @"ਈ", @"ਊ", @"ਭ", @"ਙ", @"ਘ", @"ਧ", @"ਝ", @"ਢ", @"ਓ", @"ਏ", @"ਅ", @"ਇ", @"ਉ", @"ਫ", @"ੜ", @"ਖ", @"ਥ", @"ਛ", @"ਠ", @"◌ੰ", @"◌ੱ", @"ਣ", @"ਫ਼", @"ਜ਼", @"ਲ਼", @"ਸ਼", @"ਞ" ]
 #define kChar_alt @[ @"੧", @"੨", @"੩", @"੪", @"੫", @"੬", @"੭", @"੮", @"੯", @"੦", @"ੴ", @"-", @"/", @":", @";", @"(", @")", @"$", @"₹", @"&", @"@", @"\"", @"ਖ਼", @"ਗ਼", @"।", @"॥", @".", @",", @"?", @"!" ]
 
@@ -68,10 +68,10 @@ enum {
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
         [self.keyboardBackground setImage:[UIImage imageNamed:@"iOS7_Keyboard"]];
         self.spaceButton.layer.cornerRadius = 4.0;
-        [self.spaceButton.titleLabel setFont:[UIFont fontWithName:@"GurmukhiMN" size:18]];
+        [self.spaceButton.titleLabel setFont:[UIFont fontWithName:@"Helvetica Neue" size:18]];
         [self.spaceButton.titleLabel setShadowOffset:CGSizeMake(0, 0)];
-        [self.returnButton.titleLabel setFont:[UIFont fontWithName:@"GurmukhiMN" size:18]];
-        [self.altButton.titleLabel setFont:[UIFont fontWithName:@"GurmukhiMN" size:18]];
+        [self.returnButton.titleLabel setFont:[UIFont fontWithName:@"Helvetica Neue" size:18]];
+        [self.altButton.titleLabel setFont:[UIFont fontWithName:@"Helvetica Neue" size:18]];
         [self.altButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [self.altButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
         [self.shiftButton setShowsTouchWhenHighlighted:NO];
