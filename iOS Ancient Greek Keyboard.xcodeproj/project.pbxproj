@@ -11,6 +11,8 @@
 		94BF154C19744F5A0057D589 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BF154B19744F5A0057D589 /* AppDelegate.m */; };
 		94BF154E19744F5A0057D589 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BF154D19744F5A0057D589 /* Images.xcassets */; };
 		94BF155A19744F5A0057D589 /* iOS_Ancient_Greek_KeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BF155919744F5A0057D589 /* iOS_Ancient_Greek_KeyboardTests.m */; };
+		94BF156D19744FCB0057D589 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BF156C19744FCB0057D589 /* KeyboardViewController.m */; };
+		94BF157019744FCB0057D589 /* edu.duke.library.dcthree.iOS-Ancient-Greek-Keyboard.Ancient-Greek-Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 94BF156719744FCB0057D589 /* edu.duke.library.dcthree.iOS-Ancient-Greek-Keyboard.Ancient-Greek-Keyboard.appex */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,7 +23,35 @@
 			remoteGlobalIDString = 94BF154219744F5A0057D589;
 			remoteInfo = "iOS Ancient Greek Keyboard";
 		};
+		94BF156E19744FCB0057D589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94BF153B19744F5A0057D589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94BF156619744FCB0057D589;
+			remoteInfo = "Ancient Greek Keyboard";
+		};
+		94BF157119744FCB0057D589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94BF153B19744F5A0057D589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94BF156619744FCB0057D589;
+			remoteInfo = "Ancient Greek Keyboard";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94BF157619744FCB0057D589 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				94BF157019744FCB0057D589 /* edu.duke.library.dcthree.iOS-Ancient-Greek-Keyboard.Ancient-Greek-Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		94BF154319744F5A0057D589 /* iOS Ancient Greek Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Ancient Greek Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +63,10 @@
 		94BF155319744F5A0057D589 /* iOS Ancient Greek KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Ancient Greek KeyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BF155819744F5A0057D589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94BF155919744F5A0057D589 /* iOS_Ancient_Greek_KeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Ancient_Greek_KeyboardTests.m; sourceTree = "<group>"; };
+		94BF156719744FCB0057D589 /* edu.duke.library.dcthree.iOS-Ancient-Greek-Keyboard.Ancient-Greek-Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "edu.duke.library.dcthree.iOS-Ancient-Greek-Keyboard.Ancient-Greek-Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BF156A19744FCB0057D589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94BF156B19744FCB0057D589 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		94BF156C19744FCB0057D589 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +84,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94BF156419744FCB0057D589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -58,6 +99,7 @@
 			children = (
 				94BF154519744F5A0057D589 /* iOS Ancient Greek Keyboard */,
 				94BF155619744F5A0057D589 /* iOS Ancient Greek KeyboardTests */,
+				94BF156819744FCB0057D589 /* Ancient Greek Keyboard */,
 				94BF154419744F5A0057D589 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +109,7 @@
 			children = (
 				94BF154319744F5A0057D589 /* iOS Ancient Greek Keyboard.app */,
 				94BF155319744F5A0057D589 /* iOS Ancient Greek KeyboardTests.xctest */,
+				94BF156719744FCB0057D589 /* edu.duke.library.dcthree.iOS-Ancient-Greek-Keyboard.Ancient-Greek-Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +151,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		94BF156819744FCB0057D589 /* Ancient Greek Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				94BF156B19744FCB0057D589 /* KeyboardViewController.h */,
+				94BF156C19744FCB0057D589 /* KeyboardViewController.m */,
+				94BF156919744FCB0057D589 /* Supporting Files */,
+			);
+			path = "Ancient Greek Keyboard";
+			sourceTree = "<group>";
+		};
+		94BF156919744FCB0057D589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94BF156A19744FCB0057D589 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,10 +179,13 @@
 				94BF153F19744F5A0057D589 /* Sources */,
 				94BF154019744F5A0057D589 /* Frameworks */,
 				94BF154119744F5A0057D589 /* Resources */,
+				94BF157619744FCB0057D589 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				94BF156F19744FCB0057D589 /* PBXTargetDependency */,
+				94BF157219744FCB0057D589 /* PBXTargetDependency */,
 			);
 			name = "iOS Ancient Greek Keyboard";
 			productName = "iOS Ancient Greek Keyboard";
@@ -146,6 +210,23 @@
 			productReference = 94BF155319744F5A0057D589 /* iOS Ancient Greek KeyboardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		94BF156619744FCB0057D589 /* Ancient Greek Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94BF157319744FCB0057D589 /* Build configuration list for PBXNativeTarget "Ancient Greek Keyboard" */;
+			buildPhases = (
+				94BF156319744FCB0057D589 /* Sources */,
+				94BF156419744FCB0057D589 /* Frameworks */,
+				94BF156519744FCB0057D589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ancient Greek Keyboard";
+			productName = "Ancient Greek Keyboard";
+			productReference = 94BF156719744FCB0057D589 /* edu.duke.library.dcthree.iOS-Ancient-Greek-Keyboard.Ancient-Greek-Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,6 +242,9 @@
 					94BF155219744F5A0057D589 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 94BF154219744F5A0057D589;
+					};
+					94BF156619744FCB0057D589 = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -178,6 +262,7 @@
 			targets = (
 				94BF154219744F5A0057D589 /* iOS Ancient Greek Keyboard */,
 				94BF155219744F5A0057D589 /* iOS Ancient Greek KeyboardTests */,
+				94BF156619744FCB0057D589 /* Ancient Greek Keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -192,6 +277,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		94BF155119744F5A0057D589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BF156519744FCB0057D589 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -218,6 +310,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94BF156319744FCB0057D589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BF156D19744FCB0057D589 /* KeyboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -225,6 +325,16 @@
 			isa = PBXTargetDependency;
 			target = 94BF154219744F5A0057D589 /* iOS Ancient Greek Keyboard */;
 			targetProxy = 94BF155419744F5A0057D589 /* PBXContainerItemProxy */;
+		};
+		94BF156F19744FCB0057D589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94BF156619744FCB0057D589 /* Ancient Greek Keyboard */;
+			targetProxy = 94BF156E19744FCB0057D589 /* PBXContainerItemProxy */;
+		};
+		94BF157219744FCB0057D589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94BF156619744FCB0057D589 /* Ancient Greek Keyboard */;
+			targetProxy = 94BF157119744FCB0057D589 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -365,6 +475,32 @@
 			};
 			name = Release;
 		};
+		94BF157419744FCB0057D589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ancient Greek Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "edu.duke.library.dcthree.iOS-Ancient-Greek-Keyboard.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		94BF157519744FCB0057D589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ancient Greek Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "edu.duke.library.dcthree.iOS-Ancient-Greek-Keyboard.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -390,6 +526,14 @@
 			buildConfigurations = (
 				94BF156119744F5A0057D589 /* Debug */,
 				94BF156219744F5A0057D589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94BF157319744FCB0057D589 /* Build configuration list for PBXNativeTarget "Ancient Greek Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BF157419744FCB0057D589 /* Debug */,
+				94BF157519744FCB0057D589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
