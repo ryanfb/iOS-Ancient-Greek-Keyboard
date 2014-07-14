@@ -324,6 +324,7 @@ enum {
 
 - (void)touchesBegan: (NSSet *)touches withEvent: (UIEvent *)event {
     CGPoint location = [[touches anyObject] locationInView:self];
+    NSLog(@"%@", NSStringFromCGPoint(location));
     
     for (UIButton *b in self.characterKeys) {
         if ([b subviews].count > 1) {
